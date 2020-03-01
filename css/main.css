@@ -1,0 +1,389 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: sans-serif;
+}
+p {
+	opacity: .9;
+}
+header {
+	display: flex;
+	justify-content: space-between;
+	background-color: #f4f4f4;
+	height: 7vh;
+}
+header h1 {
+	font-size: 25px;
+	margin-left: 15px;
+	margin-top: 10px;
+	color: rgb(0, 0, 0);
+	transition: 1s;
+}
+.menu {
+	width: 11%;
+	float: right;
+	margin-right: 15px;
+	margin-top: 5px;
+}
+.show-desktop {
+	display: none;
+}
+header ul {
+	display: inline-block;
+	margin-left: 30%;
+	width: 40%;
+	height: 95vh;
+	background-color: rgb(97, 97, 97);
+	border-top-left-radius: 25px;
+	border-bottom-left-radius: 25px;
+	position: fixed;
+	transition: .5s;
+}
+header ul li {
+	list-style-type: none;
+	padding: 20%;
+	color: white;
+}
+header ul li a {
+	color: white;
+	text-decoration: none;
+}
+.exit {
+	width: 20px;
+}
+.s1 {
+	height: 100vh;
+	background-image: url("/imges/192491-OXNYWS-607-min.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.s1 .container {
+	margin: 210px auto;
+	text-align: center;
+	transition: 1s;
+	background-color: rgba(202, 202, 202, 0);
+	color: black;
+}
+.s1 .container h1 {
+	font-size: 35px;
+	color: white;
+	font-weight: bolder;
+	background-color: transparent;
+}
+.s1 .container h1:hover {
+	transition: .5s;
+}
+.s1 .container p {
+	padding: 2% 0;
+	font-weight: bold;
+	color: white;
+	font-size: 20px;
+	background-color: rgba(87, 87, 87, 0);
+}
+.s1 .container button {
+	padding: 10px;
+	border-radius: 5px;
+	font-weight: bold;
+	background-color: white;
+	color: black;
+	border: 0;
+}
+.s1 .container button:hover {
+	background-color: black;
+	color: white;
+	transition: .5s;
+}
+.home {
+	position: fixed;
+	top: 80%;
+	left: 80%;
+	border: none;
+	background-color: black;
+	color: white;
+	padding: 4%;
+	border-radius: 20px;
+}
+.s2 .container {
+	background-color: rgb(236, 236, 236);
+
+	padding-top: 50px;
+	margin: 0px auto;
+	text-align: center;
+	line-height: 1.6em;
+}
+.s2 .container p {
+	margin-top: 20px;
+	padding: 2% 5%;
+}
+.s2 .container2 {
+	text-align: center;
+}
+.s2 .container2 ul {
+	display: block;
+}
+.s2 ul li {
+	list-style-type: none;
+}
+.s2 .container2 img {
+	width: 25%;
+	padding-top: 5%;
+}
+.s2 .container2 p {
+	margin: 0 5%;
+}
+.hr {
+	width: 50%;
+}
+.s3 {
+	background-color: rgb(204, 204, 204);
+	line-height: 1.6em;
+	text-align: center;
+	padding-bottom: 5%;
+	margin-bottom: -8%;
+}
+.s3 .container {
+	background-color: rgba(255, 255, 255, 0);
+	margin: 0;
+}
+.s3 .titel {
+	margin-bottom: 20px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.s3 .disc {
+	text-align: left;
+}
+.grafic2 {
+	display: none;
+}
+.grafic {
+	display: initial;
+	width: 90%;
+}
+.s3 .disc p {
+	padding-top: 4%;
+}
+input[type=text],
+select,
+textarea {
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize: vertical;
+}
+input[type=submit] {
+	background-color: rgb(124, 230, 215);
+	color: rgb(44, 44, 44);
+	padding: 12px 20px;
+	border: none;
+	border-radius: 10px;
+	cursor: pointer;
+	transition: .5s;
+	font-size: 20px;
+}
+input[type=submit]:hover {
+	background-color: #000000;
+}
+.container {
+	margin: 4em;
+	border-radius: 5px;
+	background-color: #f2f2f2;
+	padding: 20px;
+}
+.s4 {
+	background-color: rgb(236, 236, 236);
+	margin-top: 40px;
+	padding-bottom: 1%;
+}
+.s4 h1 {
+	text-align: center;
+	font-size: 30px;
+	padding-top: 50px;
+}
+.s4 hr {
+	margin-top: 3%;
+	width: 100%;
+	text-align: center;
+}
+@media only screen and (min-width: 670px) {
+	.s1 {
+		height: 100vh;
+		color: black;
+		background-image: url("/imges/192419-OXNYJ8-211-min.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	.s1 .container h1 {
+		color: black;
+		background-color: transparent;
+	}
+	header h1 {
+		font-size: 26px;
+	}
+	.menu {
+		width: 10%;
+	}
+	.s2 .container2 img {
+		width: 15%;
+	}
+	.grafic {
+		display: initial;
+		width: 70%;
+	}
+	.s3 .disc {
+		padding: 1%;
+	}
+	.s3 .disc p {
+		padding-top: 3%;
+	}
+}
+@media only screen and (min-width: 1024px) {
+	.hide-desktop {
+		display: none;
+	}
+	.exit {
+		display: none;
+	}
+	.show-desktop {
+		display: flex;
+		transition: .5s;
+	}
+	header h1 {
+		margin-top: 10px;
+	}
+	header ul {
+		margin-left: -410px;
+		margin-top: -12px;
+		width: 0;
+		height: 12vh;
+		background-color: rgba(68, 68, 97, 0);
+		position: relative;
+	}
+	header ul li {
+		list-style-type: none;
+		padding: 30px;
+		color: white;
+	}
+	header ul li a {
+		color: rgb(0, 0, 0);
+		text-decoration: none;
+		padding: 10%;
+	}
+	header ul li a:hover {
+		padding: 35%;
+	}
+	.s1 {
+		height: 100vh;
+		color: black;
+		background-image: url("/imges/192419-OXNYJ8-211-min.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	.s1 .container h1 {
+		font-size: 85px;
+		font-weight: bolder;
+		color: black;
+		background-color: transparent;
+	}
+	.s1 .container p {
+		color: black;
+		opacity: .8;
+	}
+	.s1 .container h1:hover {
+		font-size: 100px;
+	}
+	.s2 .container {
+		margin: 0px auto;
+		text-align: center;
+	}
+	.s2 .container p {
+		margin: 20px 25%;
+		padding: 0;
+	}
+	.s2 .container2 {
+		margin-top: 50px;
+		margin-bottom: 60px;
+	}
+	.s2 .container2 img {
+		width: 15%;
+		opacity: .7;
+	}
+	.s2 .container2 ul {
+		margin: 5% 10%;
+		display: flex;
+	}
+	.s2 .container2 ul li {
+		list-style-type: none;
+	}
+	.s2 .container2 p {
+		margin: 0 5%;
+	}
+	.hr1 {
+		width: 50%;
+		float: left;
+	}
+	.hr2 {
+		width: 50%;
+		float: right;
+	}
+	.s3 {
+		background-image: url("/imges/9537.jpg");
+		background-size: 60%;
+		background-repeat: no-repeat;
+		background-position: right;
+		line-height: 2em;
+		text-align: initial;
+		background-color: white;
+	}
+	.s3 .container {
+		display: block;
+	}
+	.s3 .titel {
+		margin-bottom: 0px;
+		margin-left: 5%;
+		padding-top: 20px;
+		font-weight: bold;
+	}
+	.s3 .disc {
+		margin-left: 10%;
+		font-weight: bold;
+		padding-bottom: 5%;
+		padding-right: 40%;
+	}
+	.grafic {
+		width: 25%;
+	}
+	.grafic2 {
+		display: block;
+		width: 25%;
+		float: left;
+	}
+	input[type=text],
+	select,
+	textarea {
+		width: 100%;
+		padding: 12px;
+		border: 1px solid #ccc;
+		border-radius: 4px;
+		margin-top: 6px;
+		margin-bottom: 16px;
+		resize: vertical;
+	}
+	.container {
+		margin: 3em 10em;
+		border-radius: 5px;
+		padding: 20px;
+	}
+	.s4 hr {
+		margin-left: 35%;
+		margin-top: 1%;
+		width: 30%;
+		text-align: center;
+	}
+	.grafic {
+		float: right;
+	}
+}
